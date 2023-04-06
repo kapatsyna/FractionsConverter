@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractions Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="converter">
+                <div class="converter__container">
+                    <div class="improper-fraction">
+                        <p>Converting an Impoper Fraction to a Mixed Number:</p>
+                        <input class="ask-numerator-1" required type="number" min="1" placeholder="Numerator">
+                        <input class="ask-denominator-1" required type="number" placeholder="Denominator">
+                        <button class="convert-1">Convert to Mixed Number</button>
+                    </div>
+                    <div class="mixed-number">
+                        <p>Converting a Mixed Number to an Improper Fraction:</p>
+                        <div class="mixed-number__wrapper">
+                            <div class="integer">
+                                <input class="ask-integer" required type="number" placeholder="Integer">
+                            </div>
+                            <div class="fraction">
+                                <input class="ask-numerator-2" required type="number" placeholder="Numerator">
+                                <input class="ask-denominator-2" required type="number" placeholder="Denominator">
+                            </div>
+                        </div>
+                        <button class="convert-2">Convert to Improper Fraction</button>
+                    </div>
+                </div>
+                <div class="outs">
+                    <div class="out-1"></div>
+                    <div class="out-2"></div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">JavaScript project was developed by Daniil Capațîna. <a href="https://github.com/kapatsyna">Visit my github profile.</a></footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
